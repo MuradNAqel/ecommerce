@@ -33,7 +33,11 @@ class BaseAppTheme {
         // content body, like captions.
         labelLarge: TextStyle(
             fontSize: 20, fontWeight: FontWeight.normal, color: Colors.white),
-        labelMedium: TextStyle(fontSize: 16, color: Colors.deepOrange),
-        labelSmall: TextStyle(fontSize: 18, fontWeight: FontWeight.w200)),
+        labelMedium: TextStyle(
+            fontSize: 16,
+            color: Colors.deepOrange,
+            fontWeight: FontWeight.bold),
+        labelSmall: TextStyle(
+            fontSize: 12, fontWeight: FontWeight.w500, color: Colors.black)),
   );
 }

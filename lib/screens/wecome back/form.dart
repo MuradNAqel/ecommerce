@@ -65,7 +65,7 @@ class _WecomeBackFormState extends State<WecomeBackForm> {
         SizedBox(
             width: double.maxFinite,
             child: ContinueButton(
-              route: forgotPasswordScreenPath,
+              route: homeScreenPath,
             )),
       ],
     );
